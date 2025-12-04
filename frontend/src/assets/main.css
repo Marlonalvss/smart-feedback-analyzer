@@ -1,0 +1,23 @@
+@import './base.css';
+
+#app {
+  /* Ocupa a largura toda e deixa o App.vue controlar a centralização */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0; /* Removemos o padding de 2rem para não somar com o do App.vue */
+  font-weight: normal;
+}
+
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
